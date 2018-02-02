@@ -122,9 +122,6 @@ public:
     
 private:
 
-  void FillImageData(Pylon::CGrabResultPtr grab_result,
-		     ImageData& image_data);
-
   static int _pylon_is_initted;
 
   Pylon::CImageFormatConverter* _fc;
